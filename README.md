@@ -2,6 +2,10 @@ homepage whonix.org
 
 # Development Goals
 
+## No Third Party Resources
+
+- Not fetching anything other than from whonix.org.
+
 ## Compatibility
 
 ordered roughly by priority:
@@ -20,7 +24,10 @@ https://validator.w3.org
 
 # Misc
 
-Image conversion, resize and optimization is left to `ngx_pagespeed`.
+* Image conversion, resize and optimization is left to `ngx_pagespeed`.
+* Not using relative links.
+  * Using hardcoded, direct, full links to whonix.org images.
+  * `ngx_pagespeed` filter `trim_urls` will convert them to relative links on the server on the fly.
 
 # Links
 
