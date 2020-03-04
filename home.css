@@ -531,3 +531,12 @@ footer a {
 #whonix-dekstop-pic {
   max-width: 90%;
 }
+a.freelink
+{
+  background-color: green;
+  color: white;
+  padding: 0.25em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
