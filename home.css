@@ -533,10 +533,16 @@ footer a {
 }
 a.freelink
 {
-  //background-color: green;
+  background-color: green;
   color: white;
   padding: 0.25em;
-  //text-decoration: none;
-  //text-transform: uppercase;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+a.whitelink
+{
+  color: white;
+  padding: 0.25em;
   font-weight: bold;
 }
